@@ -1,0 +1,125 @@
+{
+    "products": [
+        {
+            "name": "Bolsa Astro",
+            "id": 1,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsaAstro.jpeg"
+        },
+        {
+            "name": "Bolsa Heart",
+            "id": 2,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsaCorazon.jpeg"
+        },
+        {
+            "name": "Bolsa Barquitos",
+            "id": 3,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsitaBarco.jpeg"
+        },
+        {
+            "name": "Bolsa Carritos",
+            "id": 3,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsitaCarrito.jpeg"
+        },
+        {
+            "name": "Bolsa Conejo",
+            "id": 3,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsitaConejo.jpeg"
+        },
+        {
+            "name": "Bolsa Dino",
+            "id": 3,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsitaDino.jpeg"
+        },
+        {
+            "name": "Bolsa Barquitos",
+            "id": 3,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsitaBarco.jpeg"
+        },
+        {
+            "name": "Bolsa Espin",
+            "id": 3,
+            "price": 75000,
+            "inCart": 0,
+            "img" : "images/productos/bolsitaEspin.jpeg"
+        },
+
+        {
+            "name": "Sleeping Astro",
+            "id": 4,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/AstroPie.jpeg"
+        },
+        {
+            "name": "Sleeping Barquitos",
+            "id": 5,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/barquitosPies.jpeg"
+        },
+        {
+            "name": "Sleeping Carritos",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/carritosPie.jpeg"
+        },
+        {
+            "name": "Sleeping Conejo",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/conejoPie.jpeg"
+        },
+        {
+            "name": "Sleeping Heart",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/corazonPie.jpeg"
+        },
+        {
+            "name": "Sleeping Dino",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/dinoPie.jpeg"
+        },
+        {
+            "name": "Sleeping Epin",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/espinPies.jpeg"
+        },
+        {
+            "name": "Sleeping Gatico",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/gaticosPie.jpeg"
+        },
+        {
+            "name": "Sleeping Perritos",
+            "id": 6,
+            "price": 85000,
+            "inCart": 0,
+            "img" : "images/productos/perritosPie.jpeg"
+        }
+    ]
+        
+}

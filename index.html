@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+  </head>
+  <body class="container-fluid">
+    <div class="cabecera container-fluid d-flex justify-content-around">
+      <a class="cabecera__link row no-gutters" href="mailto:info@panditasco.com">
+          
+          <p class="cabecera__text ml-2 d-none d-sm-block d-md-block"><i class="fas fa-envelope"></i>info@panditasco.com</p>
+      </a>               
+      <a class="cabecera__link row no-gutters" href="https://api.whatsapp.com/send?phone=+573175819487" target=blank> 
+          <p class="cabecera__text ml-2 d-none d-sm-block d-md-block"><i class="fab fa-whatsapp mt-1"></i>+57 317 5819487</p>
+      </a>
+      <a class="cabecera__link row no-gutters" href="https://www.facebook.com/PanditasCo" target="_blank">
+          <p class="cabecera__text ml-2 d-none d-sm-none d-md-block"><i class="fab fa-facebook-square mt-1"></i>PanditasCO</p>
+      </a>               
+      <a class="cabecera__link row no-gutters" href="https://www.instagram.com/panditasco/?hl=es-la" target="_blank">
+          <p class="cabecera__text ml-2 d-none d-sm-none d-md-block"> <i class="fab fa-instagram mt-1"></i>PanditasCO</p>
+      </a>               
+    </div>
+    <div class="banner container-fluid p-0">
+      <img class="banner__img p-0 w-100" src="images/slider/banner1.JPG">
+    </div>  
+    <div class="container pr-5 pl-5">
+      <main class="main-index row d-flex justify-content-center">
+        <div class="welcome container row text-center justify-content-center p-0">
+            <h1 class="welcome__title col-12 col-md-8 p-0">Bienvenido a PanditasCo</h1>
+            <p class="welcome__text col-10 p-0">Aquí encontrarás los mejores artículos y consejos para el buen descanso de tu bebé.</p>
+        </div> 
+        <div class="col-12  m-0 text-center">
+            <h2 class="main__title m-3">Nuestros Productos</h2>
+            <table class="table sticky-top">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Item</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Acción</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="items"></tbody>
+              <tfoot>
+                <tr id="footer">
+                  <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                </tr>
+              </tfoot>
+            </table>
+    
+            <div class="row justify-content-center" id="containerProducts"></div>
+        </div>
+        <template id="template-carrito">
+          <tr>
+            <th scope="row">id</th>
+            <td>Café</td>
+            <td>1</td>
+            <td>
+                <button class="addButton add btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="removeButton btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>$ <span>500</span></td>
+          </tr>
+        </template>
+        <template id="template-footer">
+          <th scope="row" colspan="2">Total productos</th>
+          <td>10</td>
+          <td>
+              <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                  vaciar todo
+              </button>
+          </td>
+          <td class="font-weight-bold">$ <span>5000</span></td>
+        </template>
+      </main>
+    </div>
+    <footer class="row pt-5 justify-content-center">
+      <div class="contact col-10 col-sm-4 col-md-4 col-lg-3 justify-content-center">
+          <h3 class="contact__title text-left mr-5">Contacto</h3>
+          <div class="contact__container row d-flex justify-content-center">
+              <ul>
+                  <li><a class="contact__link" href="mailto:info@panditasco.com"><i class="fas fa-envelope"></i> info@panditasco.com</a></li>
+                  <li><a class="contact__link" href="https://api.whatsapp.com/send?phone=+573175819487"target=blank><i class="fab fa-whatsapp"></i> +57 317 5819487</a></li>
+                  <li><a class="contact__link" href="https://www.facebook.com/PanditasCo" target="_blank"><i class="fab fa-facebook-square"></i> PanditasCO</a></li>
+                  <li><a class="contact__link" href="https://www.instagram.com/panditasco/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i> PanditasCO</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="envios col-10 col-sm-4 col-md-3 d-block d-sm-block d-md-block text-center">
+          <p class="envios__text"><i class="fas fa-truck"></i> Envios a nivel Nacional</p>
+          <p class="envios__text"><i class="far fa-heart"></i> Hechos con amor</p>
+          <p class="envios__text"><i class="fas fa-feather-alt"></i> Hechos en Colombia</p>                   
+      </div>
+      <div class="rights col-12 row pt-2 align-items-center">
+          <p class="rights__text col-12 col-sm-12 text-center">Todos los derechos reservados Copyrights &#169 PanditasCo 2021</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <script src="js/fontawesome.js"></script>
+  </body>
+</html>

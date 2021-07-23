@@ -1,0 +1,96 @@
+.cabecera{
+    background-color: rgb(0, 177, 177);
+    max-height: 26px;
+    border-bottom: solid 1px pink;
+}
+.cabecera__link{
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.cabecera__link:hover{
+    color:pink;
+}
+.banner{
+    border-bottom: pink solid 1px;
+}
+.welcome__title{
+    color: rgb(0, 177, 177);
+    font-weight: 700;
+    margin-top: 30px;
+}
+.welcome__text{
+    color: rgb(0, 177, 177);
+}
+.main__title{
+    color: rgb(0, 177, 177);
+}
+#containerProducts{
+    background-color: rgba(250, 207, 215, 0.856);
+}
+h3{
+    color: rgb(0, 177, 177);
+    font-size: 18px;
+}
+#containerProducts p {
+    color: rgb(0, 177, 177);
+    font-size: 20px;
+}
+#containerProducts button{
+    background-color: rgb(0, 177, 177);
+    border: rgb(0, 177, 177);
+    border-radius: 20px;
+}
+#containerProducts button:hover{
+    background-color: salmon;
+    transition: 0.4s;
+}
+tr td{
+    color: rgb(0, 177, 177) !important;
+}
+tr th{
+    color: rgb(0, 177, 177) !important;
+}
+.addButton{
+    background-color: rgb(0, 177, 177);
+    color: white;
+    font-weight: 900;
+}
+.addButton:hover{
+    color: white;
+}
+.removeButton{
+    background-color: pink;
+    border: pink;
+    font-weight: 900;
+}
+.removeButton:hover{
+    background-color: salmon;
+}
+#vaciar-carrito{
+    background-color:pink;
+    border: pink;
+    font-weight: 700;
+}
+#vaciar-carrito:hover{
+    background-color: salmon;
+    transition: 0.4s;
+}
+footer{
+    background-color: rgb(0, 177, 177);
+    color: white;
+    
+}
+.contact__title{
+    color: white;
+}
+.contact__link{
+    color: white;
+    text-decoration: none;
+}
+.contact__link:hover{
+    color: pink;
+}
+.table{
+    background-color: white;
+}
